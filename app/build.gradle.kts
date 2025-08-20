@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.tasks"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -66,4 +66,6 @@ dependencies {
     implementation(libs.androidx.fragment.ktx)
     implementation(libs.androidx.recyclerview)
     implementation(libs.androidx.appcompat)
+
+    implementation(libs.androidx.work.runtime.ktx)
 }
